@@ -2,6 +2,10 @@
   .works-container {
     display: none;
   }
+  .works-section {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
 }
 @media screen and (min-width: 1200px) {
   .works {

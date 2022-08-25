@@ -38,3 +38,9 @@
     fill: var(--hover-color);
   }
 }
+@media screen and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}

@@ -26,12 +26,28 @@
 
 .button-portfolio-list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 .button-portfolio-list__item {
   margin-right: 8px;
+  margin-bottom: 15px;
   &:last-child {
     margin-right: 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button-portfolio-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .button-portfolio-list__item {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button-portfolio-list {
+    margin-bottom: 50px;
   }
 }

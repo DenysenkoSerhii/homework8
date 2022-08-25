@@ -131,3 +131,13 @@
     background-color: #188ce8;
   }
 }
+
+@media screen and (max-width: 1199px) {
+  .modal-text {
+    line-height: 1.5;
+  }
+  .modal-form-check-desc {
+    font-size: 11px;
+    line-height: 1.16;
+  }
+}

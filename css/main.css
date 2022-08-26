@@ -697,7 +697,7 @@ button {
   .hero-title {
     font-size: 44px;
     line-height: 1.36;
-    width: 700px;
+    max-width: 700px;
   }
 }
 .benefits-card {

@@ -11,6 +11,9 @@
 .logo__color_dark {
   color: #ffffff;
 }
+.header {
+  border-bottom: 1px solid #ececec;
+}
 
 @media screen and (max-width: 767px) {
   .navigation {
@@ -44,7 +47,6 @@
   }
 
   .header {
-    border-bottom: 1px solid #ececec;
     padding-top: 25px;
     padding-bottom: 25px;
   }
